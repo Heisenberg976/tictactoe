@@ -1,0 +1,43 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body style="background-color: rgb(66, 174, 200);"> 
+        <h2 style="margin-top: 1%;margin-left: 42%; ">Tic Tac Toe</h2>
+    <div class="main" style="margin-top: 5%;margin-left: 34%; ">
+
+        <h2 id = "scores" class = "alert alert-dark" style="width: 40%;"></h2>
+        <br>
+        <h2 id = "winner"style = "width:40%"  role="alert"></h2>
+        <br>
+
+        <table style="border: black 2px solid;width: 40%;">
+            <tr>
+                <td id = "one" ></td>
+                <td id = "two"></td>
+                <td id = "three"></td>
+            </tr>
+
+            <tr>
+                <td id = "four"></td>
+                <td id = "five"> </td>
+                <td id = "six"></td>
+            </tr>
+
+            <tr>
+                <td id = "seven"></td>
+                <td id = "eight"></td>
+                <td id = "nine"></td>
+            </tr>
+
+        </table>
+        <br>
+        <button class = "btn btn-danger" style="padding:7px; width: 100px;margin-left: 120px;font-size: 21px;" id = "reset">Reset</button>
+        <button class = "btn btn-primary" style="padding:7px; width: 120px;margin-left: 20px;font-size: 20px;" id = "new">New Game</button>        
+        <script src="index.js"></script>
+    </div>
+    </body>
+</html>
